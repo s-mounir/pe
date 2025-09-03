@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #16244b;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  height: 70px;
+}
+header img {
+  width: 150px;
+  margin : 25px;
+}
+
+main {
+  background-color: white;
+  border-radius: 25px;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  color: #16244b;
+  text-align: center;
+}
+
+.question{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.bouton {
+  background: #ff7c52;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0212249);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 30px;
+  color: #FFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
