@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './utils/index.css';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import Quiz from './pages/Quiz';
@@ -18,13 +19,14 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/pe" element={<Home />} />
         <Route path="/main" element={<Main />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/pacer/:id" element={<Pacer />} />
         <Route path="/tcd" element={<Tcd />} />
         <Route path="*" element={<Error />} />
       </Routes>
+      <Footer />
     </Router>
   </React.StrictMode>
 );
