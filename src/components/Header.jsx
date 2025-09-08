@@ -4,7 +4,7 @@ function Header() {
     return (
         <header>
             <Link to="/pe" >
-                <img src="./img/logotype-campus-blanc.svg" alt="Campus Logo"/>
+                <img src={process.env.PUBLIC_URL + '/img/logotype-campus-blanc.svg'} alt="Campus Logo"/>
             </Link>
         </header>
     )
